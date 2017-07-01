@@ -1,0 +1,18 @@
+
+What happens when you initialize a repository? Why do you need to do it?
+
+    when a respository is initialized, a .git folder is created within the current folder.
+    it does not track any files it isnt't told to track.
+    
+    This needs to be done so that git can later be given commands to track the changes to this repository.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+
+    the staging area is the files (which are in the working directory) that git will actually track.
+    When initialising a project, it is helpful to add files bit by (relevent bit) therefore,
+    by adding and removing files from the staging area, files can be commited in a logical order.
+    
+    
+    
