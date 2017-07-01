@@ -1,0 +1,109 @@
+
+How did viewing a diff between two versions of a 
+file help you see the bug that was introduced?
+
+
+viewing the diff between the 2 different files helped me in several different ways.
+
+    1, it removed irrelevent information. 
+       Since a majority of the data hasnt changed, 
+       there was no point in displaying it.
+    
+    2, when using diff with the -u option, 
+       the tool told the reader which lines had been removed, 
+       and which had been added. The reader could see that a line containing "space"
+       had been removed, and a line containing "spacr" had been added.
+       This was clearly a bug.
+       
+    3, it also allowed us to rule out / verify other changes, to discount them in our mind.
+       We could have (if we wanted) re-directed the diff to a file, then gone through that
+       file, removing lines that we were certain were not bugs.
+   
+   
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+   
+Having a access to the entire history of a file allows the programmer to:
+
+    1, find out when a particular bug was introduced.
+    
+    
+    2, see what changes a new feature made to the file. if in the future that feature needs removing,
+       the programmer will have a better idea of how to do so.
+    
+       
+    3, similarly yet opposite to the previous point, if a previously removed feature needs re-adding, 
+       for whatever reason.
+       looking at the history allows the programmer to identify what was changed to remove said feature.   
+    
+       
+    4, seeing the history of a file can allow one to see the programmers thought process.
+    
+    
+    5, sometimes when coming back to a project, it is difficult to remember 
+       the minor details which were so clear in ones mind when last working on the project.
+       
+       It is possible that by looking at the history of the file, The programmer can remind him/herself
+       of those minor details.
+       
+       
+    6, Having access to the entire history can also encourage collabouration, by allowing others to 
+       follow the code.
+   
+   
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+
+    con: similar to not backing up often enough, if one forgets to commit for too long, and
+         something happens to the computer, then the data is lost.
+         
+    pro: when manually choosing to commit, the changes will be grouped logically, eg grouped via adding
+         a feature, fixing a typo/bug etc.
+         
+    pro: google docs may commit every small change, meaning the differences have no context, making it difficult
+         to understand the mindset at the time of writing.
+         
+    con: inexperienced people may commit too regularly or not regularly enough, giving poor commit messages, which are not
+         helpful to the future reader.
+     
+
+Why do you think some version control systems, like Git, 
+allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+
+   In google docs, each document tends to be a distinct entity of its own accord, a list of some kind or an essay. 
+   similarly if it was a spreadsheet or database, then all relevent data will be encapsulated within that database.
+   
+   git is used for projets of multiple files, such as software, or documentation which describes software. 
+   Therefore as once file changes, the others must also change to match.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+
+    gitt diff allows you to see the changes between 2 different versions of a project. the example shown only had one file - but
+    presumably future projects will have multiple.
+    
+    git log shows all of the commits to a project, along with a summary of how many changes with that particula commit.
+
+
+How might using version control make you more confident to make changes that could break something
+
+    normally when adding a new feature, or even when fixture a bug, there is always a fear that new bugs could be introduced.
+    when those bugs are re-introduced, the thought of going through large projects to find the source of that bug can be scary to some.
+    
+    Therefore being able to cycle though the history of the program means that for example:
+        a unit test could be written that tests the new bug,
+        a script could then be written which programatically goes through the history of the project, and runs the unit test on each one.
+        a report could be produces stating which commit the test passes or fails on. This would help the debug engineer get to the bottom
+        of the bug.
+        
+ Now that you have your workspace set up, what do you want to try using Git for?
+     I am going to try to use git to track the progress of my projects which I use
+     when writing scripts for use on 3070 test computers.
+     
+     I will also likely use it for all future projects if i learn it well enough.
+     
+
+
+
