@@ -14,5 +14,9 @@ How is the staging area different from the working directory and the repository?
     When initialising a project, it is helpful to add files bit by (relevent bit) therefore,
     by adding and removing files from the staging area, files can be commited in a logical order.
     
+How can you use the staging area to make sure you have one commit per logical change?
     
+    if a programmer has made changes to several files, but wants to commit them seperarly,
+    he/she can add 1 or some to the staging area. Only the changes for them files will be counted 
+    during the commit.
     
