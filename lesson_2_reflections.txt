@@ -29,4 +29,14 @@ What are some situations when branches would be helpful in keeping your history 
     Branches help by:
         allowing the user to (in their mind) differ from the master by a relevent set of changes.
         a branch per experimental feature ensures that the new features are not interfiering with each other.
+        
+How do the diagrams help you visualize the branch structure?
+    the diagrams help us see what changes the programmer has made. When these changes are in a branch, we can see the intention behind them
+    assuming that the branch has a sensible name.
+    
+    when there are different branches, we can look at the commits to see changes that are in one branch but not another.
+    this may cause merge conflicts (but I imagine I will learn about these later.
+    
+    commits made from other commits (not the branch head) are difficult to navigate to, unless the map can be seen, which allows
+    the programmer to see what one has been made. This can then be navigated to, and then perhapse a new branch is made.
     
