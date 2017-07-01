@@ -20,3 +20,13 @@ How can you use the staging area to make sure you have one commit per logical ch
     he/she can add 1 or some to the staging area. Only the changes for them files will be counted 
     during the commit.
     
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+    
+    Branches are helpful when:
+        adding experimental features (a branch per experimental feature)
+        allowing multiple users to edit the code (i think)
+        
+    Branches help by:
+        allowing the user to (in their mind) differ from the master by a relevent set of changes.
+        a branch per experimental feature ensures that the new features are not interfiering with each other.
+    
