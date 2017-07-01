@@ -40,3 +40,13 @@ How do the diagrams help you visualize the branch structure?
     commits made from other commits (not the branch head) are difficult to navigate to, unless the map can be seen, which allows
     the programmer to see what one has been made. This can then be navigated to, and then perhapse a new branch is made.
     
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    Merging 2 branches together means that all of the changes from the 2 branches are now combined into one file.
+    this creates a new master (in this case) which has colour and has the coins feature.
+    the diagram is usefull, as it allows the reader to follow the changes made.
+    I am sure better 2d graphical ones are available though.
+    
+    
+    
+    
