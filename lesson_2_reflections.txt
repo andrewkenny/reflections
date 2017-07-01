@@ -47,6 +47,17 @@ What is the result of merging two branches together? Why do we represent it in t
     the diagram is usefull, as it allows the reader to follow the changes made.
     I am sure better 2d graphical ones are available though.
     
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    the pros of automatic merging are the same pros of any automated process.
+    if a programmer doesn't have to do something manually it saves his/her brainpower
+    and time.
+    
+    but if there is any doubt, then manual merging can ensure that the code stays correct.
+    
+    
+    
+    
     
     
     
