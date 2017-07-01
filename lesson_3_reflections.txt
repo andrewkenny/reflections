@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+    a remote repository means that any code that has been added is "cloud" based, meaning
+    it is a simply way to back it up. Also, remote repositories can be worked on by many people
+    allowing easy collabouration.
+    
+    an extra bonus is allowing one to work on a project from multiple computers.
