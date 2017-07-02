@@ -5,3 +5,14 @@ When would you want to use a remote repository rather than keeping all your work
     allowing easy collabouration.
     
     an extra bonus is allowing one to work on a project from multiple computers.
+    
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+    push and pull should be manual for several reasons:
+    
+    github tends to be public (unless paid for) so experimental features should remain on
+    a local directory. 
+    
+    if the remote repository is operatored by somebody else, they may not be happy with your changes
+    happening without their approval.
