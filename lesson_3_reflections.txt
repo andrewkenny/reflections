@@ -30,6 +30,18 @@ What is the benefit of having a copy of the last known state of the remote store
     Reduces the odds of merge conflicts, if the head is at 2 different places then merges can 
     be completed offline.
     
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    While it has been done in the past, in my opinion, this sort of collab would be very difficult. 
+    it would require hard and difficult planning, ensuring that people worked in such a way as to 
+    not interfier with each others progress.
+    
+    what would be easier?
+        not having to learn git.
+        
+    what would be harder?
+        everything else.
+    
     
     
     
