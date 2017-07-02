@@ -24,3 +24,13 @@ Describe the differences between forks, clones, and branches. When would you use
     A clone is used to copy an entire project (including its history) to ones own repository (local or remote)
     
     a branch is used to add a new feature.
+    
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    Reduces the odds of merge conflicts, if the head is at 2 different places then merges can 
+    be completed offline.
+    
+    
+    
+    
+    
